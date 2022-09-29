@@ -18,6 +18,26 @@ SSH (git@github.com: or ssh://git@github.com/)
 
 #### HTTPS
 
+## Basic commands to make first commit
+Once you create a repository in Github
+```
+touch README.md
+git init
+git add README.md
+git commit -m "first commit"
+git branch -M main
+git remote add origin git@github.com:<username>/<project-name>.git
+git push -u origin main
+```
+
+
 HTTPS (https://github.com/)
 - Uses password authentication for pushing, and still allows anonymous pull
 - You need to enter your Github password on every push
+
+## Resources
+
+- [Pro Git Book, PDF or ePub - free](https://git-scm.com/book/en/v2) 
+- [Visualizing Git](https://git-school.github.io/visualizing-git/) 
+- [Learn Git Branching](https://learngitbranching.js.org/) 
+- [Microsoft VS Code - IDE](https://code.visualstudio.com) 
